@@ -1,0 +1,14 @@
+{
+    "experiment_name": "Food_vs_NonFood_Classification",
+    "epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "augmentations": [
+        "RandomCrop",
+        "HorizontalFlip",
+        "ColorJitter"
+    ],
+    "device": "cuda"
+}
